@@ -29,7 +29,7 @@ public class ShoeEntity {
 	@Column(name="variant")
 	private String variant;
 	
-	@Temporal(TemporalType.DATE)
+	@Temporal(TemporalType.TIMESTAMP)
 	private Date createdon;
 	
 	public ShoeEntity() {
